@@ -1,0 +1,28 @@
+/*Tässä on esimerkki miten vaikutetaan elementtiin. Koska elementtinä on body, vaikuttaa
+tämä osio kaikkiin body sulkeiden sisällä oleviin elementteihin */
+
+body {
+
+    background-color: black;
+    color: white;
+}
+/*Tässä referoidaan h1 elementtiä. Kaikki h1 elementit saavat nämä attribuutit */
+h1 {
+    font-size: 20px;
+}
+p {
+	font-size: 12px;
+	color: green;
+}
+.div1 {
+	border-style: dotted;
+	border-width: 2px;
+	width: 100px;
+	height: 100px;
+}
+ol {
+	list-style-type: upper-latin;
+}
+ul {
+	list-style-type: square;
+}

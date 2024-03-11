@@ -1,0 +1,80 @@
+/*Tässä on esimerkki miten vaikutetaan elementtiin. Koska elementtinä on body, vaikuttaa
+tämä osio kaikkiin body sulkeiden sisällä oleviin elementteihin */
+
+body {
+
+    background-color: rgb(27, 126, 133);
+    color: black;
+}
+/*Tässä referoidaan h1 elementtiä. Kaikki h1 elementit saavat nämä attribuutit */
+h1 {
+	border-width: 5px;
+    border-style: dotted;
+	border-color: black;
+}
+p {
+	border-width: 300px;
+	background-color: coral;
+	border-radius: 20px;
+	border-bottom: 20px;
+	border-top: 20px;
+	border-left: 20px;
+	border-right: 20px;
+}
+.koira {
+	margin-left: 40px;
+
+}
+
+* {
+	box-sizing: border-box;
+  }
+#nav {
+	padding: 5px;
+	margin: 5px;
+}
+
+#navSide {
+	width: 30%;
+}
+a:hover {
+	color: firebrick;
+}
+#header {
+	background-color: #666;
+	padding: 1px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+  }
+#section {
+	float: left;
+  	width: 70%;
+  	background-color: mediumseagreen;
+  	padding: 20px;
+	height: 120px;
+	clear: both;
+}
+ 
+#article {
+	float:left;
+	padding: 20px;
+  	width: 70%;
+	height: 120px;
+ 	background-color:firebrick;
+	clear: both;
+
+}
+
+#aside {
+	float: left;
+  	width: 30%;
+  	background-color:aquamarine;
+  	padding: 20px;
+	text-align: left;
+}
+
+#footer {
+	clear: both;
+}
+

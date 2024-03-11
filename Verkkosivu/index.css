@@ -1,0 +1,51 @@
+
+* {
+	box-sizing: border-box;
+  }
+#nav {
+	padding: 5px;
+	margin: 5px;
+}
+#header {
+	background-color: #666;
+	padding: 1px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+  }
+#section {
+	float: left;
+  	width: 70%;
+  	background-color: mediumseagreen;
+  	padding: 20px;
+	height: 120px;
+	clear: both;
+}
+ 
+#article {
+	float:left;
+	padding: 20px;
+  	width: 70%;
+	height: 120px;
+ 	background-color:firebrick;
+	clear: both;
+
+}
+
+#aside {
+	float: left;
+  	width: 30%;
+  	background-color:aquamarine;
+  	padding: 20px;
+	text-align: left;
+}
+
+#footer {
+	clear: both;
+}
+#navSide {
+	width: 30%;
+}
+a:hover {
+	color: firebrick;
+}
